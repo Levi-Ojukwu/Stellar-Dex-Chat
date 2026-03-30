@@ -1,4 +1,4 @@
-// Types for the DEX Chat Interface
+// Types for the DEX Chat Interface.
 export interface ChatMessage {
   id: string;
   role: 'user' | 'assistant' | 'system';

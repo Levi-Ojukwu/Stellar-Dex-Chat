@@ -176,7 +176,7 @@ export default function BankDetailsModal({
     fetchQuote();
   }, [step, fetchQuote]);
 
-  // Countdown timer — ticks every second while the quote is live
+  // Countdown timer — ticks every second while the quote is live.
   useEffect(() => {
     if (!lockedQuote || step !== 3) return;
     const interval = setInterval(() => {
